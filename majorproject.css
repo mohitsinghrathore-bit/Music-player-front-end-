@@ -1,0 +1,566 @@
+body{
+  margin: 2rem;
+  background-color: #070729;
+}
+main{
+  display: inline-block;
+  width: 70vw;
+}
+/*header*/
+
+#page-heading{
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+}
+#page-heading h1{
+  display: inline-block;
+  color: white;
+  font-size: 1.8rem;
+  margin-top: -2px;
+}
+.header i{
+  color: pink;
+  font-size: 5rem;
+  margin: 0;
+}
+#favourites{
+  display:inline-block;
+  width: 1rem;
+  margin-left: 8rem;
+  position: relative;
+  top: -1rem
+}
+#favourites h3{
+  display: inline-block;
+  color: white;
+    font-size: 1.5rem;
+    padding:  4px;
+
+  }
+  #search{
+    display: inline-block;
+    margin-left: 54rem;
+    background-color: #0C416A;
+    box-shadow:  0 0 0 4px pink;
+    position: relative;
+    top: -1rem;
+     
+
+}
+  #search form input{
+    display: inline-block;
+    background-color: #0C416A;
+    width: 19rem;
+    height: 1.8rem;
+    border: 0px;
+    color: white;
+    font-size: 1.2rem;
+    padding: 4px;
+    margin: 2px;
+    vertical-align: text-bottom;
+  }
+  #search form i{
+    color: white;
+    font-size: 1.8rem;
+    padding: 4px;
+    margin: 1px;
+  }
+  #notification{
+    display: inline-block;
+     margin-left: 4rem;
+    position: relative;
+    top: -1rem;
+
+  }
+  #notification i{
+    color: white;
+    font-size: 2.2rem;
+    vertical-align: text-bottom;
+  }
+  #my-image{
+    display: inline-block;;
+    margin-left: 4rem;
+    overflow: cover;
+    position: relative;
+    top: -0.4rem;
+
+
+}
+  #my-image img{
+    border-radius:50%;
+    height: 3.5rem;
+    width: 3.5rem;
+    box-shadow:  0 0 0 2px pink;
+
+  }
+
+/*trending*/
+.all{
+  display: flex;
+  margin-top: 6rem;
+  margin-left: 3rem;
+}
+
+.singer-img img{
+  height: 25rem;
+  width: 22rem;
+  margin: 10px;
+  padding: 4px;
+  box-shadow: 0 0 0 2px white;
+}
+/*latest release*/
+#latest-release{
+  margin-left: 3.3rem;
+  margin-top: 3rem;
+}
+#section-progress{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 60rem;
+  
+}
+.section-heading{
+  color: white;
+  font-size: 2.4rem;
+  word-spacing: 1rem;
+  letter-spacing: 0.03rem;
+}
+#lr1 p{
+  color: white;
+}
+#song-detail{
+  display: inline-block;
+  position: relative;
+  top: -55px;
+  margin: 25px;
+}
+#song-title{
+  font-weight: bolder;
+  font-size: 1rem;
+}
+#lr1 a img{
+  height: 10rem;
+  width: 10rem;
+  }
+#time{
+  color: white;
+  position: relative;
+  display: inline-block;
+  top: -110px;
+  left: 78px;
+}
+
+
+#time i{
+  transform: rotate(90deg);
+  font-size: 1.6rem;
+}
+#time p{
+  margin-left: -8px;
+  margin-top: -2px;
+
+}
+/*popular-artist*/
+#popular-artist{
+ margin-left: 3rem;
+}
+#artist-progress{
+  display: flex;
+}
+.artist-image img{
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+}
+.artist-name{
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 12px;
+  margin-top: -1px;
+  letter-spacing: 0.01rem;
+}
+.artist-image{
+  margin-right: 25px;
+}
+/*queue*/
+
+#queue>div{
+  height: 4rem;
+  width: 25vw;
+}
+#queue{
+  overflow-y: scroll;
+  height: 99vh;
+  width: 26vw;
+  border: 0px;
+  background-color: #070729;
+}
+#queue::-webkit-scrollbar{
+display: none;
+}
+
+
+#queue-heading{
+  color: white;
+  display: flex;
+  align-content: baseline;
+}
+#queue-heading h2{
+  font-size: 1.8rem;
+}
+#queue-heading p{
+  margin-left: 19rem;
+  margin-top: 1.5rem;
+}
+#queue-heading i{
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+  font-size: 1.3rem;
+}
+#queue-heading  p,h2,i{
+  display: inline-block;
+  color: white;
+}
+.queue1>div{
+  margin-right: 1rem;
+}
+#queue-progress>div{
+  display: flex;
+  height: 3rem;
+  width: 3rem;
+  color: white;
+}
+.queue1{
+  margin-top: 2rem;
+}
+
+.list-img img{
+height: 3rem;
+  width: 3rem;
+}
+.heart{
+  margin-left: 16rem;
+}
+aside{
+  display: inline-block;
+  width: 24vw;
+  vertical-align: top;
+  margin-top: 5rem;
+}
+/*music-styles*/
+#music-styles{
+  margin-left: 3rem;
+  display: flex;
+  margin-top: 3rem;
+  background-color: #080f35;
+  width: 80rem;
+  padding: 4px;
+}
+.music-name{
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  margin-top: 40px;
+}
+#music-style1{
+  background-image: url(https://res.cloudinary.com/teepublic/image/private/s--wVJr0-bv--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1508391899/production/designs/1983403_0.jpg);
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  background-size: contain;
+  opacity: 0.7;
+  margin-right: 3rem;
+
+}
+#music-style2{
+  background-image: url(https://mixmag.net/assets/uploads/images/_columns2/why-free-weights-are-better-than-machines-1107591-TwoByOne.jpg);
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  opacity: 0.7;
+  background-size: contain;
+  margin-right: 3rem;
+
+
+}
+#music-style3{
+  background-image: url(https://res.cloudinary.com/teepublic/image/private/s--qV5fLOy0--/t_Preview/b_rgb:c62b29,c_limit,f_jpg,h_630,q_90,w_630/v1464110711/production/designs/522806_1.jpg);
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  opacity: 0.7;
+  background-size: contain;
+  margin-right: 3rem;
+}
+#music-style4{
+  background-image: url(data:image/jpeg;base64,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);
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  opacity: 0.7;
+  background-size: contain;
+  margin-right: 3rem;
+
+}
+#music-style5{
+  background-image: url(https://markmanson.net/wp-content/uploads/2018/04/on-rock-music-and-writing-cover.jpg);
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  opacity: 0.7;
+  background-size: contain;
+  margin-right: 3rem;
+ 
+}
+#music-style6{
+  background-image: url(https://www.studyfinds.org/wp-content/uploads/2019/03/audience-band-christians-213207-816x520.jpg);
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  opacity: 0.7;
+  background-size: cover;
+  margin-right: 3rem;
+ 
+}
+#music-style7{
+  background-image: url(https://i.ytimg.com/vi/2gE9nms05O0/hqdefault.jpg);
+  border-radius: 50%;
+  height: 9rem;
+  width: 9rem;
+  opacity: 0.7;
+  background-size: contain;
+  margin-right: 3rem;
+}
+/*major music */
+#major-music{
+  display: flex;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+#major-music>div{
+  height: 16rem;
+  width: 25rem;
+  background-size: cover;
+  margin-right: 2.5rem;
+}
+#majormusic1{
+  background-image: url(https://wallpaperplay.com/walls/full/7/e/9/61557.jpg);
+
+}
+#majormusic2{
+  background-image: url(http://qantumthemes.xyz/sonik/demo3/wp-content/uploads/2015/03/wordpress-radio-theme-0202-1024x576.jpg);
+
+}
+#majormusic3{
+  background-image: url(https://d3atagt0rnqk7k.cloudfront.net/wp-content/uploads/2016/05/29200711/cannabis-road-trip-tips-see-sights-and-stay-safe-with-these-7-rul.jpg);
+
+}
+.majormusicname{
+  color: white;
+  font-size: 2rem;
+  margin-left: 10rem;
+  margin-top: 9rem;
+}
+/*latest*/
+#latesta,#latestB{
+  margin-left: 3rem;
+  margin-top: 2.5rem;
+
+}
+.latest-english{
+  display: flex;
+  display: flex;
+  color: white;
+}
+.songs img{
+  height: 10rem;
+  width: 12rem;
+  box-shadow: 0 0 0 1px pink;
+  margin-right: 1.70rem;
+}
+
+/*bottom-music player*/
+#bottom-music{
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100vw;
+  height: 10vh;
+  margin-left: -2rem;
+  display: none;
+  visibility: hidden;
+}
+#music-img img{
+  height: 6rem;
+  width: 5rem;
+}
+#music-desc{
+  height: 6rem;
+  width: 5rem;
+  margin-left: 2rem;
+}
+#music-desc p{
+margin-top: -1.2rem;
+}
+#heartA{
+  margin-top: 2rem;
+  margin-left: 1.8rem;
+}
+#block{
+  margin-top: 2rem;
+  margin-left: 1rem;
+
+}
+#player-bottom{
+  display: flex;
+  flex-direction: column;
+  margin-left: 25rem;
+  justify-content: space-between;
+}
+#horizontal-list li{
+  display: inline-block;
+  margin: 2rem;
+}
+#icon-list{
+  margin-top: -2.5rem;
+}
+#horizontal-list li i{
+  font-size: 1.2rem;
+}
+.song-duration{
+  display: flex;
+}
+.duration-progress{
+  width: 35rem;
+  height: 0.3rem;
+  background-color: white;
+  border-radius: 2%;
+  position: relative;
+  top:1rem;
+}
+.song-duration{
+  position: relative;
+    top: -2.5rem;
+  left: -4rem;
+  margin: 8px;
+}
+#horizontal-list1 li{
+  display: inline-block;
+  margin: 1rem;
+}
+
+#horizontal-list1 li i{
+  font-size: 1.1rem;
+}
+#duration1{
+  width: 8rem;
+}
+#song-dur1{
+  position: relative;
+  left: 100rem;
+  top: -5.4rem;
+  color: white;
+}
+
+
+
+
+
+/*psudedo classes for caraousel and other*/
+.singer-img img:hover{
+  transform: scale(1.2);
+  transition: 1s ease-in-out;
+  box-shadow: 0 0 0 1px pink;
+}
+
+#majormusic1:hover {
+  background-size: 30rem;
+  transition: 1s ease-out;
+}
+#majormusic2:hover {
+  background-size: 30rem;
+  transition: 1s ease-out;
+
+}
+#majormusic3:hover {
+  transition: 1s ease-out;
+  background-size: 30rem;
+}
+.artist-image img:hover{
+  box-shadow: 0 0 0 1px pink;
+}
+
+#bottom-music:target {
+  display: flex;
+  transition: 0.5s ease-in-out;
+  visibility: visible;
+}
+.duration-progress i{
+  color: pink;
+  position: relative;
+  top: -0.4rem;
+}
+.songs img:hover{
+ box-shadow: 0 0 0 1.2px blue;
+}
+/*media queries*/
+@media (min-width: 1281px) {
+  html{
+    font-size: 14px;
+  }
+  #search{
+    margin-left: 48rem;
+  }
+}
+ 
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  html{
+    font-size: 10px;
+  }
+  #queue>div{
+    width: 2rem;
+  }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  html{
+    font-size: 8px;
+  }
+  aside{
+   display: block;
+   width: 100%;
+  }
+  #search{
+    margin-left: 10rem;
+  }
+  .singer-img img{
+    width: 18rem;
+  }
+#queue-progress>div{
+  width: 40rem;
+}
+#queue{
+  width: 100%;
+}
+#popular-artist div img{
+  width: 10rem;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
